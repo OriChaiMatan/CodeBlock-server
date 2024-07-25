@@ -1,22 +1,26 @@
 [
     {
-        "_id": "r1",
-        "title": "Async Case",
-        "code": "async function fetchData() {\n  try {\n    const response = await fetch('https://api.example.com/data');\n    const data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Error fetching data:', error);\n  }\n}"
+      "_id": "c1",
+      "title": "Get All Even Numbers",
+      "code": "// Function to get all even numbers from an array\nfunction getEvenNumbers(arr) {\n  // Your code here\n}",
+      "solution": "// Function to get all even numbers from an array\nfunction getEvenNumbers(arr) {\n  return arr.filter(num => num % 2 === 0);\n}"
     },
     {
-        "_id": "r2",
-        "title": "Loop Case",
-        "code": "for (let i = 0; i < 5; i++) {\n  console.log('Iteration:', i);\n}"
+      "_id": "c2",
+      "title": "Palindrome Number",
+      "code": "// Function to check if a string is a palindrome\nfunction isPalindrome(str) {\n  // Your code here\n}",
+      "solution": "// Function to check if a string is a palindrome\nfunction isPalindrome(str) {\n  const reversed = str.split('').reverse().join('');\n  return str === reversed;\n}"
     },
     {
-        "_id": "r3",
-        "title": "Array Case",
-        "code": "const fruits = ['apple', 'banana', 'cherry'];\n\nfruits.forEach(fruit => {\n  console.log('Fruit:', fruit);\n});"
+      "_id": "c3",
+      "title": "Get Random Number",
+      "code": "// Function to generate a random number between two values\nfunction getRandomNumber(min, max) {\n  // Your code here\n}",
+      "solution": "// Function to generate a random number between two values\nfunction getRandomNumber(min, max) {\n  return Math.floor(Math.random() * (max - min + 1)) + min;\n}"
     },
     {
-        "_id": "r4",
-        "title": "Function Case",
-        "code": "function greet(name) {\n  return 'Hello, ' + name + '!';\n}\n\nconsole.log(greet('World'));"
+      "_id": "c4",
+      "title": "Sum Array",
+      "code": "// Function to calculate the sum of all numbers in an array\nfunction sumArray(arr) {\n  // Your code here\n}",
+      "solution": "// Function to calculate the sum of all numbers in an array\nfunction sumArray(arr) {\n  return arr.reduce((acc, num) => acc + num, 0);\n}"
     }
-]
+  ]
